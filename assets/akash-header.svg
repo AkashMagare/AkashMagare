@@ -1,0 +1,55 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Akash Magare profile header</title>
+  <desc id="desc">A dark blue and purple gradient banner introducing Akash Magare as an aspiring data scientist.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B1A" />
+      <stop offset="0.48" stop-color="#111C3D" />
+      <stop offset="1" stop-color="#312E81" />
+    </linearGradient>
+    <linearGradient id="glow" x1="760" y1="40" x2="1120" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.72" />
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.08" />
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="170" x2="420" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#A78BFA" />
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#93C5FD" stroke-opacity="0.08" />
+    </pattern>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="24" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#background)" />
+  <rect width="1200" height="300" rx="20" fill="url(#grid)" />
+  <circle cx="1010" cy="96" r="150" fill="url(#glow)" filter="url(#blur)" />
+  <circle cx="1070" cy="70" r="88" fill="#38BDF8" fill-opacity="0.08" />
+  <circle cx="960" cy="232" r="110" fill="#A78BFA" fill-opacity="0.08" />
+
+  <g opacity="0.68" stroke="#7DD3FC" stroke-width="1.5">
+    <path d="M790 82L880 132L1000 92L1080 154L1160 112" />
+    <path d="M825 216L910 170L1005 210L1110 190" />
+    <path d="M880 132L910 170" />
+    <path d="M1000 92L1005 210" />
+  </g>
+  <g fill="#BAE6FD">
+    <circle cx="790" cy="82" r="4" />
+    <circle cx="880" cy="132" r="5" />
+    <circle cx="1000" cy="92" r="4" />
+    <circle cx="1080" cy="154" r="5" />
+    <circle cx="1160" cy="112" r="4" />
+    <circle cx="825" cy="216" r="4" />
+    <circle cx="910" cy="170" r="5" />
+    <circle cx="1005" cy="210" r="4" />
+    <circle cx="1110" cy="190" r="5" />
+  </g>
+
+  <text x="80" y="112" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Akash Magare</text>
+  <rect x="82" y="136" width="360" height="4" rx="2" fill="url(#accent)" />
+  <text x="82" y="184" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600">Aspiring Data Scientist</text>
+  <text x="82" y="222" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="17">Python  •  SQL  •  Excel  •  Tableau</text>
+  <text x="82" y="258" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="14">Building practical projects and learning in public</text>
+</svg>
